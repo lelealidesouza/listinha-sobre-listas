@@ -1,2 +1,5 @@
-listan1 = ["dgou", "leandro", "bilada"]
-print("A posição do item na lista é: ", listan1.index("leandro")
+elemento = input("Digite algo da lista para verificar sua posição: ")
+
+lista = ["Rojão", "Pedra", "Papel", "Tesoura", "Bomba"]
+
+print("A posição de {} é {}".format(elemento, lista.index(elemento)))
